@@ -25,7 +25,7 @@ function mailfunction($mail_reciever_email, $mail_reciever_name, $mail_msg, $att
 
     $mail->setFrom($mail_reciever_email, $mail_reciever_name);
 
-    $mail->addAddress("TraceTechi@gmail.com", "TraceTech Team");
+    $mail->addAddress("Tracetechi@gmail.com", "Tracetech Team");
 
     $mail->Subject = 'Someone Contacted You!';
 

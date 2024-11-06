@@ -2661,7 +2661,7 @@ class PHPMailer
      */
     protected function generateId()
     {
-        $len = 32; //32 bytes = 256 TraceTech
+        $len = 32; //32 bytes = 256 Tracetech
         $bytes = '';
         if (function_exists('random_bytes')) {
             try {
