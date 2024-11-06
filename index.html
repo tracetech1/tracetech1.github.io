@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    input, textarea {
+      display: block;
+      padding: 10px;
+      width: 400px;
+      margin-bottom: 15px;
+      border: 1px solid lightgray;
+      font-size: 15px;
+      outline: none;
+      font-family: "Raleway", sans-serif;
+      -webkit-transition: all .25s;
+         -moz-transition: all .25s;
+          -ms-transition: all .25s;
+           -o-transition: all .25s;
+              transition: all .25s;
+    }
+    input:focus, textarea:focus {
+      box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.19);
+    }
+    form button {
+      margin-left: 2rem;
+            outline: none;
+            border: none;
+            border-radius: 5rem;
+            background: white;
+            border-style: groove;
+            border-color: #002e5f;
+            font-size: 1.5rem;
+            cursor: pointer;
+            height: 3.5rem;
+            width: 15rem;
+            box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
+    }
+    textarea {
+      margin-left: 2rem;
+			width: 95%;
+			height: 130px;
+			color: #000;
+			border: 1px solid #bcbcbc;
+			border-radius: 10px;
+			outline: none;
+			margin-bottom: 20px;
+			padding: 15px;
+			font-family: 'Poppins', sans-serif;
+    }
+    .capbox {
+      border-width: 0px 12px 0px 0px;
+      display: inline-block;
+      padding: 4px 20px 4px 4px;
+      }
+    
+    .capbox-inner {
+      font: bold 11px arial, sans-serif;
+      color: #000000;
+      background-color: #ffffff;
+      margin: 5px auto 0px auto;
+      padding: 3px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      }
+    
+    #CaptchaDiv {
+      font: bold 17px verdana, arial, sans-serif;
+      font-style: italic;
+      color: #000000;
+      background-color: #FFFFFF;
+      padding: 4px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      }
+    
+    #CaptchaInput {
+      
+			width: 95%;
+			height: 40px;
+			color: #000;
+			border: 1px solid #bcbcbc;
+			border-radius: 50px;
+			outline: none;
+			margin-bottom: 20px;
+			padding: 15px; }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TraceTech PCB Website</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/c0c207e756.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./images/image.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo" style="padding-top: 1rem;"><img src="./images/image.png" alt=""></a> 
+        <div class="fas fa-bars"></div>
+        <nav class="navbar" style="text-transform: capitalize;">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#service">services</a></li>
+                <li><a href="#team">team</a></li>
+                <li><a href="#careers">career</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <section id="home" class="home"> <div style="margin-bottom: 15rem;">        <h1>Welcome to TraceTech PCB your Premier Destination for Cutting-Edge PCB Design Solutions! 
+      </h1>
+      <h3 style="color: white;"><br><br>At TraceTechpcb, We specialize in delivering top-of-the-line PCB design services tailored to meet the unique needs of our clients. <br>From Concept to completion, we are committed to excellence, precision, and innovation.
+        
+      </h3>
+      <h3 style=" color: #FFFFFF;"> <br> Led by our visionary founder and CEO, Rajsundari, we bring Decades of industry experience and expertise to every project we undertake. With a focus on customer satisfaction and engineering excellence, we have earned a reputation for reliability and professionalism in the field of PCB design.
+
+        <br><br>
+        Explore our website to learn more about our services, our team, and how we can help bring your electronic innovations to life. Partner with TraceTechpcb today and experience the difference expertise makes!
+        <br>
+        <br>
+        <Div style="font-size: 2.3rem; color: #FFA500">
+        "Where every trace leads to excellence: TraceTech PCB design services"
+      </Div></h3>
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave3"></div>
+
+  </div>
+
+  </section>
+
+  <section id="about" class="about">
+    <h1><br></h1>
+    <h1 class="heading">About us</h1>
+    <div class="row">
+        <div class="content">
+            <h3></h3>
+            
+            <p style="font-size: large;">At TraceTechpcb, we believe in the power of innovation to shape the future. Founded by industry veteran Rajsundari, our company is dedicated to providing best-in-class PCB design solutions to clients across various industries.
+              <br><br>
+              With a team of experienced engineers and a commitment to excellence, we have quickly become a trusted partner for businesses ranging from startups to Fortune 500 companies, providing them with the expertise and support needed to bring their electronic innovations to life.
+              <br><br>
+              Our customer-centric approach, combined with our technical expertise, ensures that every project is completed with precision and efficiency.
+
+Learn more about our company and our mission to empower innovation through superior PCB design services.
+              </p>
+        </div>
+    </div>
+  </section>
+
+
+  <section id="expertise" class="about">
+    <h1><br></h1>
+    <h1 class="heading">Our Expertise</h1>
+    <div class="row">
+        <div class="content">
+            <h3></h3>
+            
+            <p style="font-size: large;">
+              Pcie Gen 5<br>
+              M.2<br>
+              DDR3, DDR4, DDR 5, LPDDR4X, LPDDR5<br>
+              High speed 64Ghz<br>
+              Fine pitch<br>
+              Blind buried vias.<br>
+              HDI designs<br>
+              Ultra flex, S93k, Chroma Load Boards<br>
+              RF SFP<br>
+              QSFP-DD modules
+              </p>
+        </div>
+    </div>
+  </section>
+
+  
+  <div class="pt-5 pb-5" style="background-color: #f2f2f2;">
+    <div class="container">
+      <br><br>
+      <div class="row">
+        <div class="section-head col-sm-12" id="service">
+          
+          <h1>Our Services</h1>
+            
+        </div>
+        <div class=" col-md-3">
+          <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-sitemap" aria-hidden="true"></i>
+
+          </span>
+            <h6>Prototyping</h6>
+            <p>From concept to prototype, we provide full-service prototyping solutions to bring your ideas to life quickly and efficiently.</p>
+          </div>
+        </div>
+        <div class=" col-md-3">
+          <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
+            <h6>Substrate Design</h6>
+            <p>Our team has the expertise in parts placement and critical routings meet both signal integrity and manufacturing requirements</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-archive"></i></span>
+            <h6>Package Design</h6>
+            <p> Our team is proficient in package design, ensuring that electronic components are housed in efficient, reliable, and compact packages!</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item"> <span class="icon feature_box_col_three"><i class="fa-solid fa-microchip"></i></span>
+            <h6>PCB Design</h6>
+            <p>Our team specializes in designing high-quality printed circuit boards (PCBs) tailored to meet the specific requirements of each client.
+            </p>
+          </div>
+        </div>
+        
+      </div>
+
+      <h1>Our Specialization</h1>
+<br>
+      <p style="font-size: large; padding-left: 3rem;">SYSTEM BOARDS <br>
+        EVALUATION BOARDS<br>
+        CHARACTERISATION BOARD<br>
+        PROBE CARDS<br>
+        LOAD BOARDS<br>
+        PRODUCT BOARDS<br>
+        HEATER BOARDS<br>
+        INTERPOSER BOARDS<br>
+        FLEX PCB<br>
+        RIGID FLEX PCB
+      <br><br>
+      From Schematics to comprehensive PCB layout ensuring optimal placement and routing for maximum performance and reliability. Explore our range of services and discover how TraceTechpcb can help you realize your electronic design goals.
+
+    </p>
+     
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  <section class="counters">
+    <div class="container">
+        <div>
+            <i class="far fa-clock fa-4x"></i>
+            <div > <h2>24+</h2></div>
+            <h3>Years in Business</h3>
+        </div>
+        <div>
+            <i class="fas fa-gift fa-4x"></i>
+            <div > <h2>700+</h2></div>
+            <h3>Completed Projects</h3>
+        </div>
+        <div>
+            <i class="fas fa-users fa-4x"></i>
+            <div > <h2>100+</h2></div>
+            <h3>Happy Clients</h3>
+        </div>
+        
+    </div>
+</section>
+
+
+
+
+
+
+<div class="communicate">
+    <h3>Stay in touch to know what is the next big thing in the digital AI design space!</h3>
+    <a href="#contact"><button class="btn">Contact Now</button></a>
+</div>
+me
+
+
+
+<a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/jquery/jquery-migrate.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+
+<section class="team" style="margin-top: 7rem; top: -100px;">
+  <h1 class="heading" style="margin-top: -3.5rem;" id="team">our team</h1>
+  <div class="container">
+  <p style="font-size: large;">
+
+    At TraceTechpcb, our greatest asset is our team of dedicated professionals. Led by founder and CEO Rajsundari, our team brings a wealth of experience and expertise to every project.
+<br><br>
+Meet the individuals behind TraceTechpcb and learn more about their backgrounds, skills, and contributions to our success.
+  </p>
+</div>
+</section>
+
+<!-- <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Coimbatore 641002&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections Game</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div> -->
+
+<section id="contact" class="contact">
+    <h1 class="heading">get in touch</h1>
+    <p style="font-size: large; padding-bottom: 2rem;">Ready to get started? Contact TraceTechpcb today to discuss your PCB design needs. Whether you're a startup with a <br>groundbreaking idea or an established company looking to enhance your product line, we're here to help.<br><br> Reach out to us via phone, email, or through our online contact form. We look forward to hearing from you!</p>
+<div class="contact-in">
+    <h3>                                                 
+      326 Thadagam Road<br> Coimbatore 641013 <br>
+                          <strong>Phone:</strong> +91 89396 38889<br>
+                          <strong>Email:</strong> sales@tracetechpcb.com
+                          <br>
+
+    </h3>
+    
+    </div>
+  </section>
+
+
+    <div class="footer">
+      <div class="footer-top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6 footer-links">
+                      <h4>About Us</h4>
+                      <ul>
+                          <li><i class="ion-ios-arrow-forward"></i> <a href="#">Home</a></li>
+                          <li><i class="ion-ios-arrow-forward"></i> <a href="#about">About us</a></li>
+                          <li><i class="ion-ios-arrow-forward"></i> <a href="#service">Our services</a></li>
+                          <li><i class="ion-ios-arrow-forward"></i> <a href="#">Terms & condition</a></li>
+                          <li><i class="ion-ios-arrow-forward"></i> <a href="#">Privacy policy</a></li>
+                      </ul>
+                  </div>
+
+                 
+
+                  <div class="col-lg-3 col-md-6 footer-contact" style="font-size: 1.5rem;">
+                      <h4 >Contact Us</h4>
+                      <p style="@media screen and (min-width: 48em) {
+                        font-size:2rem;
+
+              }">
+                          
+                          326 Thadagam Road<br> Coimbatore 641013 <br>
+                          <strong>Phone:</strong> +91 89396 38889<br>
+                          <strong>Email:</strong> sales@tracetechpcb.com
+                          <br>
+                      </p>
+
+                      <div class="social-links">
+                          <a href="https://www.facebook.com/"><i class="ion-logo-facebook"></i></a>
+                          <a href="https://twitter.com/login?lang=en"><i class="ion-logo-twitter"></i></a>
+                          <a href="https://www.linkedin.com/"><i class="ion-logo-linkedin"></i></a>
+                          <a href="https://www.instagram.com/"><i class="ion-logo-instagram"></i></a>
+                          <a href="https://accounts.google.com/servicelogin/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="ion-logo-googleplus"></i></a>
+                      </div>
+
+                  </div>
+
+                  
+
+              </div>
+          </div>
+      </div>
+
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-md-6 copyright" style="color: #fff; font-size: 1.3rem;">
+                  Copyright &copy; 2024 TraceTech PCB Inc. All Rights Reserved.
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+</body>
+</html>
+
+
